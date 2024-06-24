@@ -1,3 +1,7 @@
+:root{
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -8,7 +12,7 @@
 
 main{
   height: 100vh;
-  background-color: hsl(47, 88%, 63%);
+  background-color: var(--yellow)
 }
 
 img{
@@ -23,7 +27,7 @@ img{
 }
 
 .card{
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--white);
   max-width: 384px;
   max-height: 522px;
   border-radius: 20px;
@@ -33,6 +37,8 @@ img{
   padding: 24px 24px 0 24px;
 }
 
-.course-category
+.course-category{
+  background-color: var(--yellow);
+}
 
 
