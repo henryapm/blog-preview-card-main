@@ -25,7 +25,11 @@ main{
   border: 1px solid black;
 }
 
-.image{
+img{
   padding: 24px;
   border-radius: 10px;
+}
+
+.card-header{
+
 }
