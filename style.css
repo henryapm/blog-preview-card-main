@@ -26,10 +26,10 @@ main{
 }
 
 img{
-  padding: 24px;
+  padding: 24px 24px 0 24px;
   border-radius: 10px;
 }
 
-.card-header{
-  padding: 24px;
+.card-header, .card-body{
+  padding: 24px 24px 0 24px;
 }
