@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
 :root{
   --yellow: hsl(47, 88%, 63%);
   --white: hsl(0, 0%, 100%);
 }
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 *{
   padding: 0px;
   margin: 0px;
+  font-family: "Figtree", sans-serif;
 }
 
 main{
@@ -15,8 +19,11 @@ main{
   background-color: var(--yellow)
 }
 
-img{
-  padding: 24px 24px 0 24px;
+.card{
+  padding: 24px;
+}
+.card-image{
+  height: 200px;
   border-radius: 10px;
 }
 
@@ -28,17 +35,46 @@ img{
 
 .card{
   background-color: var(--white);
-  max-width: 384px;
+  width: 384px;
   max-height: 522px;
   border-radius: 20px;
   border: 1px solid black;
 }
-.card-header, .card-body{
-  padding: 24px 24px 0 24px;
+
+.card-content{
+  padding-top: 24px;
 }
 
 .course-category{
+  display: inline-block;
+  padding: 8px;
   background-color: var(--yellow);
 }
 
+.inline{
+  display: inline-block;
+}
 
+.course-category, .course-date, .course-title{
+  margin-bottom: 12px;
+}
+
+.course-description{
+  word-break: break-all;
+}
+
+.card-body{
+  width: 384px;
+}
+
+.author img, .author p{
+  display: inline;
+}
+
+.author img{
+  width: 32px;
+  height: 32px;
+}
+.author p{
+  vertical-align: auto;
+}
